@@ -1,7 +1,7 @@
 ---
 title: Debug with Node.js V8
 ---
-简介了不同Node.js版本，如何使用V8引擎调试Node.js端代码的方案。若存在复杂的需要调试运行的Node.js端代码，建议将node升级到v6.3.0版本或更高版本。其推出了inspect指令，可通过chrome dev utils进行代码调试。
+简介了不同Node.js（v4.6.0, v6.3.0, v7.7.0, v8.0.0）版本，如何使用V8引擎调试Node.js端代码的方案。若存在复杂的需要调试运行的Node.js端代码，建议将node升级到v6.3.0版本或更高版本。其推出了inspect指令，可通过chrome dev utils进行代码调试。
 
 ### 一、指令
 ```javascript
