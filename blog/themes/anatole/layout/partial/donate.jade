@@ -1,0 +1,8 @@
+.post-donate
+    #donate_board.donate_bar.center
+        a#btn_donate.btn_donate(href='javascript:;', title='打赏')
+        span.donate_txt
+            = theme.donate_message
+    #donate_guide.donate_bar.center.hidden
+        img(src= url_for('images/weixin.jpeg'))
+    script(src= url_for('js/donate.js')) 
