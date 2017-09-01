@@ -1,0 +1,45 @@
+<html>
+<head>
+	<style>
+		.div {
+			width: 200px;
+			height: 200px;
+			background: red;
+		}
+		.div:hover {
+			background: blue;
+		}
+	</style>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	- [x] A. element.attributes['name'].value
+	- [x] B. element.attributes['name'].nodeValue
+	- [x] C. element.getAttributeNode('name').value
+	- [ ] D. element.getAttribute('name').value
+	<div class='div' id="xxx" name="xxx"></div>
+	<script>
+		var  div = document.getElementById('xxx');
+
+		// console.log(div.attributes['name'].value)
+		// console.log(div.attributes['name'].nodeValue)
+		// console.log(div.getAttributeNode('name').value)
+		// console.log(div.getAttribute('name').value)
+
+		$('#xxx').on('click', function(event){
+			console.log(this);
+			setTimeout(() => {
+				console.log(this);
+			}, 2000);
+		})
+
+	</script>
+</body>
+
+
+
+
+<html>
