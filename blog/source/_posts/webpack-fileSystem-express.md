@@ -1,5 +1,3 @@
-### Webpack in dev with express
-
 ---
 title: Webpack-dev-middleware fileSystem express
 ---
